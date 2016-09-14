@@ -1,0 +1,15 @@
+---
+title: "Analysis of _Lilaeopsis schaffneriana_ var._recurva_ monitoring data"
+author: "Aaron Cajero (FWS) and Jacob Malcom (DOW)"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_vignette:
+    
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Since 2007, U.S. Fish and Wildlife Service personnel have monitored populations of _Lilaeopsis schaffneriana_ var. _recurva_ (LSR), a species listed as threatened under the U.S. Endangered Species Act (ESA), at San Bernardino and Leslie Canyon National Wildlife Refuges (SBLCNWR) in southeast Arizona. The species is a desert wetland obligate whose range has been substantially reduced by more than a century of land use that reduced the number, extent, and natural dynamics of wetlands in Arizona and Sonora, Mexico. LSR historically occurred on San Bernardino NWR but was apparently extirpated by the late 1990s, and plugs were transplanted in Leslie Canyon NWR in the 1990s, where the species still persists today. 
+
