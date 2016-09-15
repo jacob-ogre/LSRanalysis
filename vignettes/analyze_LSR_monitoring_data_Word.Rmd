@@ -3,9 +3,8 @@ title: "Analysis of _Lilaeopsis schaffneriana_ var. _recurva_ monitoring data"
 author: "William Radke and Aaron Cajero (FWS), and Jacob Malcom (DOW)"
 date: "`r Sys.Date()`"
 output: 
-  rmarkdown::html_document:
+  rmarkdown::word_document:
     toc: true
-    toc_float: true
     toc_depth: 3
 ---
 

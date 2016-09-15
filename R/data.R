@@ -11,6 +11,9 @@
 #'   \item{\code{Patch}}{A patch identifier to allow syncing the estimates
 #'     made by different observers}
 #'   \item{\code{Observer}}{A unique identifier within year for the observer}
+#'   \item{\code{Obs_2}}{Alternate observer ID to account for turnover in
+#'     personnel who were making the observations each year. Needed for
+#'     estimating observer effect sizes.}
 #'   \item{\code{Area}}{The estimated area of the patch, given the observer's
 #'     sketch and their measurements}
 #' }
