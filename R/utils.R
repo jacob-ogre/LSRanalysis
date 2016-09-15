@@ -1,13 +1,13 @@
 # BSD_2_clause
 
-#' Summary plots of some sort
+#' Run the vignette for the LSR monitoring analysis
 #'
-#' @param paramName explanation
-#' @return what is returned
-#' @seealso if any see alsos
+#' @return An HTML version of the LSR analysis vignette
+#' @importFrom rmarkdown render
 #' @export
 #' @examples
-#' one or more lines to demo the function
-summary_plot <- function(x) {
-
+#' run_vignette()
+run_vignette <- function() {
+  rmarkdown::render("vignettes/analyze_LSR_monitoring_data.Rmd")
+  system("open vignettes/analyze_LSR_monitoring_data.html")
 }
