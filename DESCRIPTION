@@ -16,7 +16,6 @@ Imports:
     ggplot2,
     ggthemes,
     lme4,
-    LSRanalysis,
     MASS,
     plotly,
     tidyr,

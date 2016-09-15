@@ -8,6 +8,8 @@
 #' @examples
 #' run_vignette()
 run_vignette <- function() {
-  rmarkdown::render("vignettes/analyze_LSR_monitoring_data.Rmd")
-  system("open vignettes/analyze_LSR_monitoring_data.html")
+  rmarkdown::render(system.file("analyze_LSR_monitoring_data.Rmd",
+                                package = "LSRanalysis"),
+                    output_file = paste0(tempdir(), "/LSR_analysis.html"))
+  system(paste0("open ", tempdir(), "/LSR_analysis.html"))
 }
